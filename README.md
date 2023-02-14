@@ -1,4 +1,4 @@
-# smart_parking_system
+# Smart Parking System
 This research project aims to investigate the potential of utilizing advanced technologies, specifically the ESP32 module, to design and implement an intelligent parking system. The proposed system features a fixed number of parking spaces and utilizes a servomotor to simulate a parking barrier that can operate in two distinct modes, depending on the direction of a vehicle's approach. The manual mode enables an operator to manually raise and lower the barrier via the use of two buttons, while the automatic mode employs proximity sensors to automatically raise the barrier as a vehicle approach.
 
 Furthermore, the proposed parking system features a ventilation subsystem that simulates environmental conditions within the parking lot via the use of temperature and humidity sensors, as well as a motor that controls a fan. The ventilation subsystem is designed to operate in response to temperature and humidity levels that exceed pre-defined thresholds, in order to ensure optimal environmental conditions within the parking lot.
