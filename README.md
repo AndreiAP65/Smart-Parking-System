@@ -28,7 +28,7 @@ The proposed system architecture from a hardware perspective includes a selectio
 
   - In order to monitor the environmental conditions inside the parking lot, the system also includes a DHT11 humidity and temperature sensor. This sensor is used to detect the humidity and temperature inside the parking lot, which can be used to control the ventilation system;
 
-![dht11](https://user-images.githubusercontent.com/48281622/218750466-672e0988-4f61-424d-96b9-bce551b3c1d6.png)
+![dht11](https://user-images.githubusercontent.com/48281622/218750809-2325eb40-b31e-4e6c-b6e3-4e3d97051c19.png)
 
   - The system also includes a DC motor with a fan, which simulates the ventilation of the parking lot;
 
@@ -52,7 +52,7 @@ From an electrical point of view, the hardware architecture was configured and d
 
 In the end, the physically hardware architecture fully configured on the breadboard can be observed in the picture below where the barrier between the ultrasonic sensors can be also noticed.
 
-![schema_smart_parking_system](https://user-images.githubusercontent.com/48281622/218750541-432c9b0a-2808-44af-a5ce-9d3c6b75f805.png)
+![schema_smart_parking_system](https://user-images.githubusercontent.com/48281622/218750785-3348049a-58b7-45c3-a904-9784c3093984.png)
 
 A full view of the parking lot is illustrated in the picture below. The difference between these two pictures is that in this case the whole parking lot can be observed and, implicitely, the placement of the system on the table.
 
@@ -60,7 +60,7 @@ A full view of the parking lot is illustrated in the picture below. The differen
 
   ### Software Architecture
   
-In regards to the software architecture implemented for this project, an important aspect to consider is the structure of the file system. As depicted in the diagram below, a comprehensive examination of each file will be conducted in this chapter, in order to thoroughly explain the configuration of each hardware component and its role in the overall system behavior.
+In regards to the software architecture implemented for this project, an important aspect to consider is the structure of the file system.
 
 ![filesystem_smart_parking](https://user-images.githubusercontent.com/48281622/218750564-487d4d3a-7a2a-44f1-9d5c-1e4019a7199a.png)
 
