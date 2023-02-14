@@ -4,3 +4,5 @@ This research project aims to investigate the potential of utilizing advanced te
 Furthermore, the proposed parking system features a ventilation subsystem that simulates environmental conditions within the parking lot via the use of temperature and humidity sensors, as well as a motor that controls a fan. The ventilation subsystem is designed to operate in response to temperature and humidity levels that exceed pre-defined thresholds, in order to ensure optimal environmental conditions within the parking lot.
 
 To facilitate monitoring and management of the system, a web-based interface is implemented that allows real-time monitoring of environmental conditions within the parking lot, and the ability to determine the need for ventilation based on sensor data. Through the implementation of this research project, the feasibility of utilizing advanced technologies such as the ESP32 module to create a more efficient and user-friendly parking system was evaluated.
+
+![ESP32](https://ocw.cs.pub.ro/courses/_detail/iothings/proiecte/2022/esp32_microprocessor.png?id=iothings%3Aproiecte%3A2022%3Asmart_parking_system)
