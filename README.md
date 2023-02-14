@@ -96,29 +96,29 @@ The results of this study have shown that it is possible to develop an intellige
   ### Resources & References
   
   #### Pictures sources
-  [1]https://predictabledesigns.com/introduction-to-the-esp32-wifi-bluetooth-wireless-microcontroller/
-  [2]https://roboromania.ro/produs/breadboard-420-121-plastic-cu-contacte-nichelate/
-  [3]https://www.trionprojects.org/2020/03/ultrasonic-sensor-hc-sr04-with-pic.html
-  [4]https://my.cytron.io/p-sg90-micro-servo
-  [5]https://www.electrokit.com/en/product/digital-temperature-and-humidity-sensor-dht11/
-  [6]https://tehnoelectric.ro/simple/512-04211-motor-cc-15-3v-200ma-38x20x16mm.html
-  [7]https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/leds
-  [8]https://ardushop.ro/ro/electronica/96-buton-mare-push-button.html?gclid=Cj0KCQiAiJSeBhCCARIsAHnAzT-sl3TxjqzM3SsV762KyG-kay2yzuXtajYANnQOX81WiyXLfUW-HkAaAv_tEALw_wcB
+  1. https://predictabledesigns.com/introduction-to-the-esp32-wifi-bluetooth-wireless-microcontroller/
+  2. https://roboromania.ro/produs/breadboard-420-121-plastic-cu-contacte-nichelate/
+  3. https://www.trionprojects.org/2020/03/ultrasonic-sensor-hc-sr04-with-pic.html
+  4. https://my.cytron.io/p-sg90-micro-servo
+  5. https://www.electrokit.com/en/product/digital-temperature-and-humidity-sensor-dht11/
+  6. https://tehnoelectric.ro/simple/512-04211-motor-cc-15-3v-200ma-38x20x16mm.html
+  7. https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/leds
+  8. https://ardushop.ro/ro/electronica/96-buton-mare-push-button.html?gclid=Cj0KCQiAiJSeBhCCARIsAHnAzT-sl3TxjqzM3SsV762KyG-kay2yzuXtajYANnQOX81WiyXLfUW-HkAaAv_tEALw_wcB
   
   #### Components and their usage
-  [9]https://dronebotworkshop.com/esp32-servo/
-  [10]https://docs.arduino.cc/built-in-examples/digital/Button
-  [12]https://www.tutorialspoint.com/arduino/arduino_blinking_led.htm
-  [13]https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/
-  [14]https://www.tutorialspoint.com/arduino/arduino_dc_motor.htm
-  [15]https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/
-  [16]https://www.instructables.com/Arduino-Servo-Motors/
-  [17]https://www.allaboutcircuits.com/projects/servo-motor-control-with-an-arduino/
+  9. https://dronebotworkshop.com/esp32-servo/
+  10. https://docs.arduino.cc/built-in-examples/digital/Button
+  11. https://www.tutorialspoint.com/arduino/arduino_blinking_led.htm
+  12. https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/
+  13. https://www.tutorialspoint.com/arduino/arduino_dc_motor.htm
+  14. https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/
+  15. https://www.instructables.com/Arduino-Servo-Motors/
+  16. https://www.allaboutcircuits.com/projects/servo-motor-control-with-an-arduino/
 
   #### Software tips
-  [18]https://ocw.cs.pub.ro/courses/iothings/laboratoare/2022/lab2
-  [19]https://ocw.cs.pub.ro/courses/iothings/laboratoare/2022/lab3
-  [20]https://www.youtube.com/watch?v=1y03xt6IM-o
-  [21]https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/spiffs.html
-  [22]https://randomnerdtutorials.com/esp32-web-server-arduino-ide/
-  [23]https://github.com/me-no-dev/arduino-esp32fs-plugin
+  17. https://ocw.cs.pub.ro/courses/iothings/laboratoare/2022/lab2
+  18. https://ocw.cs.pub.ro/courses/iothings/laboratoare/2022/lab3
+  19. https://www.youtube.com/watch?v=1y03xt6IM-o
+  20. https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/spiffs.html
+  21. https://randomnerdtutorials.com/esp32-web-server-arduino-ide/
+  22. https://github.com/me-no-dev/arduino-esp32fs-plugin
