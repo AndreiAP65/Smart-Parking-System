@@ -20,19 +20,19 @@ The proposed system architecture from a hardware perspective includes a selectio
 
   - The system also includes two HC-SR04 ultrasonic sensors, which provide non-contact measurement capabilities in the range of 2cm to 700cm, with a ranging accuracy of 3mm. These sensors are used to detect the presence of vehicles and trigger the movement of the barrier, allowing entry or exit from the parking lot;
 
-![download](https://user-images.githubusercontent.com/48281622/218746023-32c8ef72-87c8-4dcd-8c7e-1fda2eff67da.png)
+![download](https://user-images.githubusercontent.com/48281622/218750405-ef4de1a5-7bcd-4389-b23e-46ca9272a9d8.png)
 
   - The movement of the barrier is simulated using a MicroServo 9G SG90 servo-motor, which operates based on pulse-width modulation (PWM) control signals. The servo-motor is able to maintain a specific angle based on the width of the PWM signal input, thus providing precise and reliable movement of the barrier;
   
-![servomotor](https://user-images.githubusercontent.com/48281622/218746072-7ff54222-bcae-43a6-891a-d3029cbb91f2.png)
+![servomotor](https://user-images.githubusercontent.com/48281622/218750446-97730049-36fa-4019-b5ef-a16c10d53599.png)
 
   - In order to monitor the environmental conditions inside the parking lot, the system also includes a DHT11 humidity and temperature sensor. This sensor is used to detect the humidity and temperature inside the parking lot, which can be used to control the ventilation system;
 
-![dht11](https://user-images.githubusercontent.com/48281622/218746115-63eae0a8-618e-41e2-bc47-9622df8c0238.png)
+![dht11](https://user-images.githubusercontent.com/48281622/218750466-672e0988-4f61-424d-96b9-bce551b3c1d6.png)
 
   - The system also includes a DC motor with a fan, which simulates the ventilation of the parking lot;
 
-![dcmotor](https://user-images.githubusercontent.com/48281622/218746142-ba7c3f2f-4322-4780-abd4-2a25c4c897b8.png)
+![dcmotor](https://user-images.githubusercontent.com/48281622/218750503-f96cac94-4745-4d1c-b6b5-076e7fcb73b0.png)
 
   - Furthermore, the system includes two LEDs (green, red) which are used to indicate the status of the barrier, with the red LED indicating that the barrier is down and the green LED indicating that the barrier is up;
 
@@ -52,7 +52,7 @@ From an electrical point of view, the hardware architecture was configured and d
 
 In the end, the physically hardware architecture fully configured on the breadboard can be observed in the picture below where the barrier between the ultrasonic sensors can be also noticed.
 
-![schema_smart_parking_system](https://user-images.githubusercontent.com/48281622/218746319-867d6120-0eff-41a4-9c9d-0a3f1bf39145.png)
+![schema_smart_parking_system](https://user-images.githubusercontent.com/48281622/218750541-432c9b0a-2808-44af-a5ce-9d3c6b75f805.png)
 
 A full view of the parking lot is illustrated in the picture below. The difference between these two pictures is that in this case the whole parking lot can be observed and, implicitely, the placement of the system on the table.
 
@@ -62,7 +62,7 @@ A full view of the parking lot is illustrated in the picture below. The differen
   
 In regards to the software architecture implemented for this project, an important aspect to consider is the structure of the file system. As depicted in the diagram below, a comprehensive examination of each file will be conducted in this chapter, in order to thoroughly explain the configuration of each hardware component and its role in the overall system behavior.
 
-![filesystem_smart_parking](https://user-images.githubusercontent.com/48281622/218747156-566da41e-11d5-4ec7-8634-cb64b7489d00.png)
+![filesystem_smart_parking](https://user-images.githubusercontent.com/48281622/218750564-487d4d3a-7a2a-44f1-9d5c-1e4019a7199a.png)
 
 In this project, the ESP32 microcontroller serves as the central control unit for the operation of all sensors and motors involved. This is demonstrated also in the demo video. Additionally, the file “index.html” was uploaded to the microcontroller's internal memory in order to facilitate the display of a user-friendly web interface, as depicted in the picture below. Through this interface, users can easily monitor the temporal evolution of humidity and temperature and make a decision to activate the ventilation system via the button provided at the top of the page.
 
