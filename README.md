@@ -74,10 +74,11 @@ The web page is used to display two Highchart graph and a switch button. The swi
   ### Usability. Demo Video
   
 The way the proposed solution is working was highlighted in the video attached in the link below. There, the full environment and the hardware implementation's placement in the parking lot can be observed. The example displays how the ultrasonic sensors sense the activity which happens in front of them, how the barrier can be moved manually using the buttons or automatically when the ultrasonic sensors detect some movement, the LEDs which indicate the state of the barrier (open/closed) and the web server interface in which the evolution in time of the humidity and temperature can be seen in the graphs and the trigger button of the DC Motor which should be pressed when temperature/humidity exceed a desired treshold.
+
 Link: https://drive.google.com/file/d/1O56uAq17g-68r0betEHjXbiDiJ5rza-4/view?usp=share_link
 
 
-  ###Future Work & Improvements
+  ### Future Work & Improvements
   
 This project presents a smart parking system that utilizes an ESP32 microcontroller, two ultrasound sensors, a servomotor, two buttons, a humidity and temperature sensor, two LEDs and a DC motor. The system is capable of detecting the presence of cars at the entrance of the parking lot. However, there is still room for improvement. Future work on this project could include the following:
   - Enhancing the user interface by incorporating a LCD screen to display the temperature, humidity, and the number of cars in the parking lot in real-time. This would provide users with more information about the parking lot conditions and make the system more user-friendly.
@@ -85,14 +86,14 @@ This project presents a smart parking system that utilizes an ESP32 microcontrol
   - Adding a buzzer or LED indicator to alert the user when the parking lot is full. This would help users avoid parking in a lot that is already full.
 Overall, the project can be improved by adding more features to make it more user-friendly, efficient and secure.
 
-  ###Conclusions
+  ### Conclusions
   
 The implementation of the ESP32 module has proven to be highly effective in providing the necessary intelligence and connectivity capabilities to the parking system, allowing for efficient allocation and management of parking spaces.
 The use of a servomotor to simulate a parking barrier, along with the implementation of manual and automatic modes of operation, has resulted in a more secure and user-friendly parking experience for users. The integration of temperature and humidity sensors in the ventilation subsystem has not only ensured a comfortable environment for the users but also helped to reduce energy consumption by only activating the ventilation when needed.
 The web-based interface has provided an easy way for the administrator to monitor and manage the system, it could also be further developed to allow users to check the parking space availability in advance or reserve parking spots.
 The results of this study have shown that it is possible to develop an intelligent parking system that is not only efficient but also cost-effective by using commercially available modules like the ESP32. This research can be expanded to include more sensors and modules to improve the overall performance and user experience, such as license plate recognition to further automate the parking process.
 
-  ###Resources & References
+  ### Resources & References
   
   #### Pictures sources
   [1]https://predictabledesigns.com/introduction-to-the-esp32-wifi-bluetooth-wireless-microcontroller/
